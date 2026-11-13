@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>KIET University</title>
+
+<style type="text/css">
+
+body {
+font-size: 100%;
+font-family: "Courier New", Courier, monospace;
+background-color: #efefef;
+color: #333333;
+}
+
+h1, h2, h3, a {
+font-weight: normal;
+margin: 0px;
+}
+
+h1 {
+font-size: 200%;
+color: #0088dd;
+padding-bottom: 10px;
+}
+
+h2 {
+font-size: 90%;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #333333;
+}
+
+h3 {
+font-size: 130%;
+color: #333333;
+}
+
+p {
+font-family: Arial, Verdana, sans-serif;
+line-height: 1.5em;
+color: #333333;
+text-align: justify;
+}
+
+a {
+text-decoration: none;
+color: #0088dd;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+p.intro:first-line {
+font-weight: bold;
+}
+
+p.intro:first-letter {
+font-size: 200%;
+color: #0088dd;
+}
+
+#page {
+max-width: 1000px;
+min-width: 720px;
+margin: 10px auto 10px auto;
+padding: 20px;
+border: 4px double #000000;
+background-color: #ffffff;
+}
+
+/* Top banner */
+#banner {
+background-color: #0088dd;
+text-align: center;
+padding: 20px;
+margin-bottom: 15px;
+border: 2px solid #000000;
+}
+
+#banner h1 {
+color: #ffffff;
+}
+
+#banner h2 {
+color: #ffffff;
+}
+
+/* Navigation */
+#nav {
+background-color: #dddddd;
+border: 1px solid #000000;
+padding: 5px;
+text-align: center;
+margin-bottom: 15px;
+}
+
+#nav a {
+display: inline-block;
+padding: 8px 15px;
+margin: 0px 5px;
+color: #333333;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+#nav a:hover {
+background-color: #0088dd;
+color: #ffffff;
+text-decoration: none;
+}
+
+/* Programs boxes */
+.programs {
+text-align: center;
+}
+
+.program {
+width: 290px;
+display: inline-block;
+vertical-align: top;
+margin: 5px;
+padding: 15px;
+border: 3px dotted #0088dd;
+background-color: #ffffff;
+text-align: left;
+}
+
+.program h3 {
+color: #0088dd;
+}
+
+/* Campus structure (Lab 4 layout) */
+.container {
+width: 100%;
+max-width: 960px;
+margin: 10px auto 10px auto;
+}
+
+.container header {
+width: 100%;
+height: 100px;
+background-color: #dddddd;
+border: 1px solid #000000;
+text-align: center;
+}
+
+.container nav {
+width: 100%;
+height: 40px;
+background-color: #cccccc;
+border: 1px solid #000000;
+text-align: center;
+}
+
+.sidebar {
+width: 30%;
+height: 220px;
+background-color: #eeeeee;
+border: 1px solid #000000;
+display: inline-block;
+text-align: center;
+vertical-align: top;
+}
+
+.contentarea {
+width: 68%;
+height: 220px;
+background-color: #f5f5f5;
+border: 1px solid #000000;
+display: inline-block;
+text-align: center;
+vertical-align: top;
+}
+
+.container footer {
+width: 100%;
+height: 80px;
+background-color: #dddddd;
+border: 1px solid #000000;
+text-align: center;
+}
+
+.sidebar p, .contentarea p, .container footer p {
+padding: 8px;
+text-align: left;
+}
+
+/* JS hidden boxes */
+#visionDetail {
+display: none;
+width: 400px;
+padding: 15px;
+margin-top: 10px;
+background: #0088dd;
+color: #ffffff;
+border: 1px solid #000000;
+}
+
+#calcResult {
+display: none;
+width: 300px;
+padding: 15px;
+margin-top: 10px;
+background: #0088dd;
+color: #ffffff;
+border: 1px solid #000000;
+}
+
+input {
+margin: 5px;
+padding: 6px;
+border: 1px solid #0088dd;
+font-family: Arial, Verdana, sans-serif;
+}
+
+input[type="button"] {
+background-color: #0088dd;
+color: #ffffff;
+cursor: pointer;
+padding: 6px 15px;
+}
+
+input[type="button"]:hover {
+background-color: #333333;
+color: #ffffff;
+}
+
+/* Footer */
+#mainFooter {
+border-top: 2px solid #000000;
+border-bottom: 1px solid #000000;
+padding: 10px;
+text-align: center;
+margin-top: 20px;
+}
+
+section {
+margin-bottom: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="page">
+
+<div id="banner">
+<hgroup>
+<h1>KIET University</h1>
+<h2>Knowledge, Integrity, Excellence, Teamwork</h2>
+</hgroup>
+</div>
+
+<div id="nav">
+<a href="#about">About</a>
+<a href="#vision">Vision</a>
+<a href="#programs">Programs</a>
+<a href="#campus">Campus</a>
+<a href="#tools">Fee Calculator</a>
+</div>
+
+<section id="about">
+<header><h1>About KIET</h1></header>
+<p class="intro">KIET is a leading university that provides quality education in engineering, computing, business and sciences. It prepares students to become skilled professionals and responsible citizens.</p>
+<p>The university offers modern laboratories, a well-stocked library, experienced faculty and a friendly learning environment.</p>
+<p>KIET is committed to research, innovation and character building of its students. The <abbr title="Khwarizmi Institute of Engineering and Technology">KIET</abbr> campus opens at <time datetime="08:00">8 o'clock</time> daily.</p>
+</section>
+
+<section id="vision">
+<header><h1>Our Vision and Mission</h1></header>
+<p>KIET aims to become a center of excellence in higher education and research, providing affordable and high quality education to all students.</p>
+<input type="button" value="Show Vision Detail" onClick="showVision()" />
+<div id="visionDetail">
+<p style="color:#ffffff;">Our vision is to produce graduates who serve the nation, lead with integrity and contribute to the development of society through innovation and research.</p>
+</div>
+</section>
+
+<section id="programs">
+<header><h1>Programs Offered</h1></header>
+<div class="programs">
+<div class="program">
+<h3>Computer Science</h3>
+<p>Learn programming, databases, networking, web development and artificial intelligence.</p>
+</div>
+<div class="program">
+<h3>Software Engineering</h3>
+<p>Study software design, testing, project management and modern development methods.</p>
+</div>
+<div class="program">
+<h3>Electrical Engineering</h3>
+<p>Work with circuits, electronics, power systems and communication technology.</p>
+</div>
+</div>
+</section>
+
+<section id="campus">
+<header><h1>KIET Campus Structure</h1></header>
+<div class="container">
+<header>
+<h1>KIET University Main Campus</h1>
+</header>
+<nav>
+<h1>Home | About | Programs | Admissions | Contact</h1>
+</nav>
+<section class="sidebar">
+<h1>Quick Links</h1>
+<p><a href="#">Admissions Open</a></p>
+<p><a href="#">Fee Structure</a></p>
+<p><a href="#">Academic Calendar</a></p>
+<p><a href="#">Contact Us</a></p>
+</section><section class="contentarea">
+<h1>Welcome to KIET</h1>
+<p>KIET University is dedicated to academic excellence and student success. Our campus provides a peaceful environment for learning and personal growth.</p>
+<p>Join us to build a bright future and become part of a proud KIET family.</p>
+</section>
+<footer>
+<p>KIET University — Learn, Lead, Succeed</p>
+</footer>
+</div>
+</section>
+
+<section id="tools">
+<header><h1>KIET Fee Calculator</h1></header>
+<p>Enter fee per semester and number of semesters to calculate total fee:</p>
+<input type="number" id="firstnum" placeholder="Fee per semester" />
+<input type="number" id="secondnum" placeholder="Number of semesters" />
+<input type="button" value="Calculate Total" onClick="addition()" />
+<div id="calcResult"></div>
+</section>
+
+<footer id="mainFooter">
+KIET University. <a href="http://www.kiet.edu.pk">Visit Website</a>
+</footer>
+
+</div>
+
+<script>
+function showVision() {
+document.getElementById('visionDetail').style.display = "block";
+}
+
+function addition() {
+var FirstNum = Number(document.getElementById('firstnum').value);
+var SecondNum = Number(document.getElementById('secondnum').value);
+var Total = FirstNum * SecondNum;
+document.getElementById('calcResult').style.display = "block";
+if (FirstNum > 0 && SecondNum > 0) {
+document.getElementById('calcResult').innerHTML = "Fee per semester " + FirstNum + " x " + SecondNum + " semesters = Total Fee " + Total;
+} else {
+document.getElementById('calcResult').innerHTML = "Please enter valid numbers";
+}
+}
+</script>
+
+</body>
+</html>
